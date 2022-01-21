@@ -3,10 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   font-size: 2.5rem;
-  position: fixed;
-  top: 0;
   color: white;
-  padding-top: 5rem;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 `;
 export const NavBarWrapper = styled.div`
   width: 80%;

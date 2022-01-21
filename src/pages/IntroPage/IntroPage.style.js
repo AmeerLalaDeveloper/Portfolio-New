@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Background = styled.div`
   width: 100%;
-  height: 100vh;
   position: relative;
   &:before {
     position: absolute;
@@ -17,8 +16,9 @@ export const Background = styled.div`
 `;
 
 export const ContainerPageView = styled.div`
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  height: 85vh;
   color: white;
   display: flex;
 `;

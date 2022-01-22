@@ -29,4 +29,15 @@ button {
 section {
   height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.content {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  height: 70%;
+  box-shadow: 2px 5px 10px #ccc;
 }

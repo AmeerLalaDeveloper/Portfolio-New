@@ -8,7 +8,7 @@ export default function AboutContainer() {
   return (
     <S.AboutContainer id="About">
       <SectionHeader title={"About Me"} subTitle={"Why Choose Me?"} />
-      <S.AboutContent>
+      <div className="content">
         <S.MyImage src={myImage}></S.MyImage>
         <S.Info>
           <S.Description>{description}</S.Description>
@@ -24,7 +24,7 @@ export default function AboutContainer() {
             </button>
           </S.Actions>
         </S.Info>
-      </S.AboutContent>
+      </div>
     </S.AboutContainer>
   );
 }

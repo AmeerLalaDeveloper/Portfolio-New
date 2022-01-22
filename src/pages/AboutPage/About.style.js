@@ -1,19 +1,9 @@
 import styled from "styled-components";
 
-export const AboutContainer = styled.section`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-`;
+export const AboutContainer = styled.section``;
 
 export const AboutContent = styled.div`
-  width: 70%;
-  margin: 0 auto;
-  display: flex;
-  height: 70%;
-  box-shadow: 2px 5px 10px #ccc;
+
 `;
 export const MyImage = styled.img`
   height: 100%;

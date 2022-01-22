@@ -10,3 +10,10 @@ export const AboutComponentData = {
     "Managing database",
   ],
 };
+
+export const ResumeMenuTopics = [
+  "Education",
+  "Work History",
+  "Programming Skills",
+  "Projects",
+];
